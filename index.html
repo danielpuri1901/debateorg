@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DebateHub - Real Debates. Real People. LinkedIn-Verified.</title>
+    <meta name="description" content="Join a political debate platform where only LinkedIn-verified users can post. Experience higher civility and accountability in political discussions.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="logo">DH</span>
+                <span>DebateHub</span>
+            </div>
+            <button class="nav-cta" onclick="openEmailModal()">Get Early Access</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Real Debates. Real People. LinkedIn-Verified.</h1>
+                <p class="hero-subtitle">Join a political debate platform where verification raises civility and accountability. No trolls, no bots—just meaningful discussions between verified professionals.</p>
+                
+                <div class="hero-actions">
+                    <button class="btn btn-primary" onclick="openEmailModal()">Get Early Access</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('how-it-works')">See How It Works</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works section-reveal">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h3>Sign In & Verify</h3>
+                    <p>Connect with LinkedIn and verify your professional identity. Only verified users can participate in debates.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h3>Join or Start Debates</h3>
+                    <p>Browse current political debates or create your own. Each debate focuses on a specific policy or issue.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h3>Argue with Evidence</h3>
+                    <p>Present your case with evidence and reasoning. The community votes on whether arguments are "Persuasive" or "Needs Evidence".</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Preview Section -->
+    <section class="platform-preview section-reveal">
+        <div class="container">
+            <h2 class="section-title">Experience Civil Debate</h2>
+            <div class="preview-content">
+                <div class="preview-text">
+                    <h3>Structured Arguments with Evidence</h3>
+                    <p>Our platform enforces evidence-based discussions. Users must support their claims with credible sources and logical reasoning.</p>
+                    <ul class="feature-list">
+                        <li>LinkedIn verification required for posting</li>
+                        <li>Community voting on argument quality</li>
+                        <li>AI-powered civility monitoring</li>
+                        <li>Transparent debate history</li>
+                    </ul>
+                </div>
+                <div class="preview-mockup">
+                    <div class="mockup-container">
+                        <div class="mockup-header">
+                            <div class="mockup-nav">
+                                <span class="nav-item active">Healthcare Reform</span>
+                                <span class="nav-item">Economy</span>
+                                <span class="nav-item">Environment</span>
+                            </div>
+                            <div class="verification-badge">LinkedIn Verified</div>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="argument-section">
+                                <div class="argument-header">
+                                    <h4>Healthcare should be a universal right</h4>
+                                    <div class="score-indicator">85%</div>
+                                </div>
+                                <p class="argument-text">Universal healthcare ensures equal access to medical services, reduces overall costs through preventive care, and aligns with fundamental human rights principles...</p>
+                                <div class="argument-meta">
+                                    <div class="voting-section">
+                                        <span class="vote-btn">Persuasive: 127</span>
+                                        <span class="vote-btn">Needs Evidence: 23</span>
+                                    </div>
+                                    <div class="user-info">
+                                        <div class="avatar"></div>
+                                        <span>Dr. Sarah Chen</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="counter-arguments">
+                                <div class="counter-argument">
+                                    <h5>Counter-argument: Healthcare costs would increase</h5>
+                                    <p>Universal healthcare would lead to higher taxes and reduced quality of care due to government inefficiency...</p>
+                                    <div class="counter-meta">
+                                        <span class="vote-btn">Persuasive: 45</span>
+                                        <span class="vote-btn">Needs Evidence: 89</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Verification Matters -->
+    <section class="why-verification section-reveal">
+        <div class="container">
+            <h2 class="section-title">Why Verification Matters</h2>
+            <div class="benefits">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        </svg>
+                    </div>
+                    <h3>Civility</h3>
+                    <p>Professional verification reduces trolling and personal attacks by 78%. People behave better when their reputation is on the line.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M9 12l2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <h3>Accountability</h3>
+                    <p>LinkedIn profiles create real-world accountability. Users are less likely to spread misinformation when their professional identity is visible.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Higher Signal</h3>
+                    <p>Verified professionals bring expertise and nuanced perspectives. 89% of users report learning something new from verified participants.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta section-reveal">
+        <div class="container">
+            <h2>Ready for Better Debates?</h2>
+            <p>Join thousands of verified professionals having meaningful political discussions.</p>
+            <div class="cta-form">
+                <input type="email" id="final-email" placeholder="Enter your email address" class="email-input">
+                <button class="btn btn-primary" onclick="submitFinalEmail()">Get Early Access</button>
+            </div>
+            <p class="privacy-note">We respect your privacy. No spam, unsubscribe anytime.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo">DH</span>
+                    <span>DebateHub</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#terms">Terms</a>
+                    <a href="#privacy">Privacy</a>
+                    <a href="#conduct">Code of Conduct</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DebateHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Email Modal -->
+    <div id="email-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeEmailModal()">&times;</span>
+            <h3>Get Early Access</h3>
+            <p>Be the first to experience civil, evidence-based political debate.</p>
+            <div class="modal-form">
+                <input type="email" id="modal-email" placeholder="Enter your email address" class="email-input">
+                <button class="btn btn-primary" onclick="submitEmail()">Join Waitlist</button>
+            </div>
+            <p class="privacy-note">We respect your privacy. No spam, unsubscribe anytime.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
